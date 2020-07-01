@@ -1,6 +1,7 @@
 # Yearbook Project (Team: The EventListeners)
 
 ## How to use our app
+Navigate to: aggie-yearbook.glitch.me 
 
 If you are a student, click the "Student Login" button to login with your UCDavis kerberos id and
 password to proceed to the "input" page.  Here you will input the requested information and upload a
@@ -37,4 +38,5 @@ preferred pronouns in the longer version of the graduate's info card as it is mo
 
 ## Authorship
 
-Remixed and modified by Kody Nguyen, Ma Eint Poe, and Kira Bender for ECS 162 Final Project, Yearbook
+Fullstack: Ma Eint Poe, Kody Nguyen
+Implementing CSS: Kira Bender
