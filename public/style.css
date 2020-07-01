@@ -1,0 +1,195 @@
+/* this file is loaded by index.html and styles the page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #E5E5E5;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/***** MOBILE VIEW *****/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 12% 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#studentLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 2.5% 0 0 0;
+  padding: 2%;
+}
+
+#viewerLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 2.5% 0 0 0;
+  padding: 2%;
+}
+
+.loginButton {
+  font-family: Montserrat;
+  background-color: #F18A00;
+  border: none;
+  color: white;
+  padding: 2.5% 7.5% 2.5% 7.5%;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin: 5% 10% 2% 10%;
+}
+
+#header {
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainHeader {
+  background: linear-gradient(
+    90deg,
+    #022851,
+    rgb(0, 142, 170),
+    rgb(108, 202, 152),
+    rgb(255, 191, 0)
+  );
+}
+
+h2 {
+  font-family: Bitter;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin: auto;
+  padding: 1% 1.5% 1% 1.5%;
+}
+
+#subHeader {
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #000000;
+  margin: auto;
+  padding: 1.5%;
+}
+
+#footer {
+  width: 100%;
+  background-color: #022851;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+#textFooter {
+  font-family: Bitter;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFBF00;
+  font-size: 1.5rem;
+  margin: auto;
+  padding: 2% 1.5% 2% 1.5%;
+}
+
+/***** TABLET VIEW *****/
+@media only screen and (min-width: 480px) {
+  .content {
+    flex-direction: row;
+    margin: 0 0 8% 0;
+  }
+
+  #studentLogin {
+    margin: 2% 4% 0 4%;
+    padding: 1.5%;
+  }
+
+  #viewerLogin {
+    margin: 2% 4% 0 4%;
+    padding: 1.5%;
+  }
+
+  .loginButton {
+    font-size: 1.125rem;
+    padding: 5% 15% 5% 15%;
+    margin: 5% 5% 2% 5%;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h1 {
+    font-size: 1.625rem;
+  }
+
+  #textFooter {
+    font-size: 1.75rem;
+  }
+}
+
+/***** DESKTOP VIEW *****/
+
+@media only screen and (min-width: 1024px) {
+  .content {
+    margin: 0 0 10% 0;
+  }
+
+  #studentLogin {
+    margin: 2.5% 5% 0 7.5%;
+    padding: 1%;
+  }
+
+  #viewerLogin {
+    margin: 2.5% 7.5% 0 5%;
+    padding: 1%;
+  }
+
+  .loginButton {
+    font-size: 1.25rem;
+    padding: 5% 20% 5% 20%;
+    margin: 8% 8% 4% 8%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #textFooter {
+    font-size: 2rem;
+  }
+}
