@@ -38,12 +38,15 @@ preferred pronouns in the longer version of the graduate's info card as it is mo
 
 ## Tech used
 Frontend: React, Material-ui
+
 Backend: Node.js, Express.js, Passport.js
+
 Database: sqlite3
 
 ## Authorship
 
 Fullstack: Ma Eint Poe, Kody Nguyen
+
 Implementing CSS: Kira Bender
 
 
