@@ -36,7 +36,14 @@ It didn't seem right to include gender as a search parameter, so we only allowed
 first name, last name, and/or major (to also allow multiple parameter search). Instead, we included
 preferred pronouns in the longer version of the graduate's info card as it is more appropriate.
 
+## Tech used
+Frontend: React, Material-ui
+Backend: Node.js, Express.js, Passport.js
+Database: sqlite3
+
 ## Authorship
 
 Fullstack: Ma Eint Poe, Kody Nguyen
 Implementing CSS: Kira Bender
+
+
