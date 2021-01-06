@@ -1,7 +1,7 @@
 # Yearbook Project (Team: The EventListeners)
 
 ## How to use our app
-Navigate to: aggie-yearbook.glitch.me 
+Navigate to: different-luck-dresser.glitch.me 
 
 If you are a student, click the "Student Login" button to login with your UCDavis kerberos id and
 password to proceed to the "input" page.  Here you will input the requested information and upload a
